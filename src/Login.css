@@ -82,6 +82,15 @@ img.image{
     transform: scale(1.1);
 }
 
+#Signup:hover,
+#Signup:focus,
+.link:hover,
+.link:focus,
+.button:hover,
+.button:focus{
+    transform: scale(1.1);
+}
+
 .button_btn1{
     width: 160px;
     height: 35px;
