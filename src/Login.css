@@ -91,6 +91,20 @@ img.image{
     transform: scale(1.1);
 }
 
+#times:hover,
+#times:focus,
+.svg-inline--fa_fa-times_fa-w-11:hover,
+.svg-inline--fa_fa-times_fa-w-11:focus{
+    transform: scale(1.1);
+}
+
+#times_1:hover,
+#times_1:focus,
+.svg-inline--fa_fa-times_fa-w-11:hover,
+.svg-inline--fa_fa-times_fa-w-11:focus{
+    transform: scale(1.1);
+}
+
 .button_btn1{
     width: 160px;
     height: 35px;
