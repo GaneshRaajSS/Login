@@ -7,24 +7,15 @@
     box-sizing: border-box;
 
 }
-img.image{
-    /* height: 524px;
-    width: 612px; */
 
+img.image{
     height: 451px;
     width: 612px;
-
-
-    /* margin-left: 30px; */
-    /* border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    box-shadow: 2px 2px 20px #7c7373;    */
 }
+
 .container{
     display: flex;
-    /* padding: 91px; */
     align-items: center;
-    /* justify-content: center; */
     border-radius: 35px;
     overflow: hidden;
     height: 444px;
@@ -39,7 +30,7 @@ img.image{
     align-items: center;
     justify-content: center;
 }
-/*Main.html--------------------------------------------------------*/
+/*Index.html--------------------------------------------------------*/
 
 .left-panel_1{
     display: flex;
@@ -47,9 +38,6 @@ img.image{
 }
 
 .container1{
-    /* height: 365px;
-    width: 532px; */
-
     height: 443px;
     width: 280px;
 }
@@ -57,22 +45,17 @@ img.image{
 .right_panel_1{
     display: flex;
     flex-direction: column;
-    /* width: 532px;
-    height: 365px;
-    padding: 100px; */
     width: 281px;
     height: 444px;
     padding: 15px;
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 2px 2px 15px #a5a5a5;    */
 }
 
 .group1{
-    padding: 50px;
+    height: 100px;
+    width: 160px;
 }
 
 .button_btn{
@@ -84,17 +67,18 @@ img.image{
     border-style: none;
     border-radius: 5px;
     color: #fff;
-    /* margin-top: 80px; */
     cursor: pointer;
     outline: none;
     margin-bottom: 40px;
 }
+
 #Signup:hover,
 #Signup:focus,
 .button_btn1:hover,
 .button_btn1:focus{
     transform: scale(1.1);
 }
+
 .button_btn1{
     width: 160px;
     height: 35px;
@@ -109,10 +93,6 @@ img.image{
     
     margin-bottom: 40px;
 }
-/* .button_btn1:hover,
-.button_btn1:focus{
-    transform: scale(1.1);
-} */
 
 @media only screen and (max-width:900px){
     .container{
@@ -132,39 +112,32 @@ img.image{
 .right{
     display: flex;
     flex-direction: column;
-    /* width: 532px;
-    height: 365px;
-    padding: 100px; */
     width: 281px;
     height: 444px;
     padding: 15px;
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 2px 2px 15px #a5a5a5;    */
 }
 .right_labels{
     align-self: self-end;
 }
 
-.right h1 {
-    /* margin-top: 110px;
-    margin-left: 80px; */
-}
-
 strong{
     font-weight: bold;
     font-size: 25px;
-    /* margin-top: -1px;
-    margin-left: 80px; */
 }
+
 .SignUp_btn{
     display: flex;
     flex-direction: row;
+    /* font-size: 12px;
+    padding: 10px; */
+    font-weight: bold;
     font-size: 12px;
-    padding: 10px;
+    color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    padding: 0px 0px 0px 18px;
 }
 
 .login{
@@ -172,8 +145,6 @@ strong{
     font-size: 10px;
     color: rgb(150, 150, 150);
     font-family: sans-serif;
-    /* margin-top: 10px;
-    margin-left: 60px; */
     padding: 20px;
 }
 
@@ -188,12 +159,18 @@ svg#times_1{
     height: 20px;
     margin-top: 110px;
     position: fixed;
-    /* margin-left: 1070px; */
     cursor: pointer;
     color: black;
 }
 
+.image2{
+    background-color: #7b79ff;
+    height: 451px;
+    width: 612px;
+}
+
 /*SignUp-------------------------------------------------------*/
+
 .main{
     background-color: #ebebeb;
 }
@@ -201,47 +178,34 @@ svg#times_1{
 .right-panel{
     display: flex;
     flex-direction: column;
-    /* width: 532px;
-    height: 365px;
-    padding: 100px; */
     width: 281px;
     height: 444px;
     padding: 15px;
     justify-content: center;
     align-items: center;
     background-color: white;
-    /* border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px;
-    box-shadow: 2px 2px 15px #a5a5a5;    */  
-    
 }
+
 .right-panel h1{
     font-weight: bold;
     font-size: 25px;
-    /* float: none;
-    margin-top: 50px; */
 }
-h1 {
-    /* margin-top: 40px;
-    margin-left: 80px; */
-}
+
 h1.strong{
     font-weight: bold;
     font-size: 25px;
-    /* margin-top: -1px;
-    margin-left: 80px; */
 }
 
 .waterMark{
     position: absolute;
     padding: 30px;
     color: #fff;
+    cursor: default;
 }
 
 .left-panel{
     display: flex;
     width: 580px;
-    /* margin-left: 1px; */
 }
 
 .SignUp{
@@ -249,18 +213,19 @@ h1.strong{
     font-size: 10px;
     color: rgb(150, 150, 150);
     font-family: sans-serif;
-    /* margin-top: 2px;
-    margin-left: 60px; */
     padding: 20px;
 }
+
 .SignUp .group{
     display: flex;
     flex-direction: column;
     position: relative;
 }
+
 label{
     margin-bottom: 5px;
 }
+
 #Username {
     width: 220px;
     height: 32px;;
@@ -268,8 +233,9 @@ label{
     border-color: #dcdcdc;
     border-style: solid;
     margin-bottom: 10px;
-    /* padding-left: 10px; */
+    padding: 5px;
 }
+
 #PhoneNo {
     width: 220px;
     height: 32px;
@@ -277,8 +243,9 @@ label{
     border-color: #dcdcdc;
     border-style: solid;
     margin-bottom: 10px;
-    /* padding-left: 10px; */
+    padding: 5px;
 }
+
 #Email {
     width: 220px;
     height: 32px;
@@ -286,8 +253,9 @@ label{
     border-color: #dcdcdc;
     border-style: solid;
     margin-bottom: 10px;
-    /* padding-left: 10px; */
+    padding: 5px;
 }
+
 #password {
     width: 220px;
     height: 32px;
@@ -295,16 +263,9 @@ label{
     border-color: #dcdcdc;
     border-style: solid;
     margin-bottom: 20px;
-    /* padding-left: 10px; */
+    padding: 5px;
 }
-/* .material-icons-outlined{
-    position: absolute;
-    top: 33px;
-    right: 95px;
-    width: 18px;
-    transform: translate(0,-50%);
-    cursor: pointer;
-} */
+
 #eye{
     position: absolute;
     top: 32px;
@@ -314,6 +275,7 @@ label{
     color: #7b79ff;
     font-size: 15px;
 }
+
 .group .button{
     width: 220px;
     height: 32px;
@@ -323,10 +285,8 @@ label{
     border-style: none;
     border-radius: 5px;
     color: #fff;
-    /* margin-bottom: 40px; */
     cursor: pointer;
 }
-
 
 .Sign{
     display: flex;
@@ -334,18 +294,20 @@ label{
     font-size: 12px;
     padding: 10px;
 }
+
 .link{
     color: #9897ff;
 }
+
 svg#times{
     width: 2142px;
     height: 20px;
     margin-top: 110px;
     position: fixed;
-    /* margin-left: 1070px; */
     cursor: pointer;
     color: black;
 }
+
 .title_Up{
     align-self: start;
     padding: 0px 0px 0px 10px;
