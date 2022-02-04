@@ -19,7 +19,8 @@ img.image{
     border-radius: 35px;
     overflow: hidden;
     height: 444px;
-    box-shadow: 0 0 7px 2px rgb(124 115 115);
+    /* box-shadow: 0 0 7px 2px rgb(124 115 115); */
+    box-shadow: 0 0 21px 2px #d5d5d5;
 }
 
 .container_bg{
