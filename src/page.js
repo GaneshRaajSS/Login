@@ -19,7 +19,7 @@
 
 const myPassword = document.querySelector("#password");
 const eyeIcon = document.querySelector("#eye");
-
+ 
 eyeIcon.addEventListener("click", () => {
     if(eyeIcon.classList.contains("fa-eye")){
         myPassword.setAttribute("type","text");

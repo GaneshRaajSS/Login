@@ -10,51 +10,109 @@
         </style>
     <title>Document</title>
 
-    <script src="https://kit.fontawesome.com/4fafa2ad67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="https://kit.fontawesome.com/4fafa2ad67.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/Login.css">
-    <!-- suma -->
+
 </head> 
 
 <body>
-    <div class="container_bg">
-        <div class="container">
-            <div class="left-panel_1">
-                <div class="waterMark"><h2>Revol.</h2></div>
-                <div class="illustration">
-                    <img src="Images/Sign up-rafiki (1).png" alt="illustration" class="image" /> 
+    <section class="sec">
+
+        <div class="container_bg">
+
+            <div class="container">
+
+                <div class="left-panel_1">
+
+                    <div class="waterMark"><h2>Revol.</h2></div>
+
+                    <div class="illustration">
+                        <img src="Images/Sign up-rafiki (1).png" alt="illustration" class="image" /> 
+                    </div>
+
                 </div>
-            </div>
-            <div class="container1">
+
+                <div class="container1">
+                    
+                    <div class="toggle">
+                        <div class="img_moon">
+                            <i class="fa-solid fa-moon" id="theme"></i>
+                        </div>
+                    </div>
+
+                    <div class="right_panel_1">
+
+                        <div class="group1">
+                            <h1 id="title1" class="title1">Main Menu</h1>
+                        </div>
+
+                        <div>
+                            <form action="login/Sign.html" class="darkmode-ignore">
+                                <button type="submit" id="Signup" class="button_btn1">SignUp</button>
+                            </form>
+                        </div>
+
+                        <div>
+                            <form action="login/SignU.html" class="darkmode-ignore">
+                                <button type="submit" id="Signup" class="button_btn">SignIn</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
                 
-                <div class="right_panel_1">
-                    <div class="group1">
-                        <h1 id="title1" class="title1">Main Menu</h1>
-                    </div>
-                    <div>
-                        <form action="login/Sign.html">
-                            <button type="submit" id="Signup" class="button_btn1">SignUp</button>
-                        </form>
-                        <!-- <input type="submit" value="SignIn" class="button_btn1" onclick=`window.location.href="login/Sign.html"`> -->
-                    </div>
-                    <div>
-                        <form action="login/SignU.html">
-                            <button type="submit" id="Signup" class="button_btn">SignIn</button>
-                        </form>
-                        <!-- <input type="submit" value="SignUp" id="Signup" class="button_btn" onclick=`window.location.href="/login/SignU.html"`> -->
-                    </div>
-                </div>
             </div>
-            
+            <!-- USING NPM
+                <div class="dark_m">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div> -->
         </div>
-        <!-- <div class="dark_m">
-            <input type="checkbox" class="checkbox" id="chk" />
-            <label class="label" for="chk">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-                <div class="ball"></div>
-            </label>
-        </div> -->
-    </div>
-    <script src="dmode.js"></script>
+
+    </section>
+
+
+    <!-- NORMAL DarkMde
+        <script>
+        const sec = document.querySelector('.sec');
+        const toggle = document.querySelector('.toggle');
+
+        toggle.onclick = function(){
+            sec.classList.toggle('dark')
+        }
+    </script> -->
+
+
+    <!-- USING NPM  -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        var options = {
+            bottom: '64px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#111',
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+        
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script> -->
+
+    <script src="./src/dmode.js"></script>
+
 </body>
+
 </html>
