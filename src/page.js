@@ -1,4 +1,4 @@
-//USING IMG
+// USING IMG
 // var a;
 // function pass()
 // {
