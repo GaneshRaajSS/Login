@@ -8,6 +8,209 @@
 
 }
 
+img.image{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.image2{
+    background-color: #7b79ff;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container1{
+    align-self: center;
+    background: #fff;
+}
+
+.container{
+    align-self: center;
+    background: #fff;
+}
+
+.title1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.ButtonGrp {
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+
+.illustration {
+    height: 76vh;
+}
+
+.illustration2{
+    height: 20vh;
+}
+
+.right_panel_1{
+    height: 129px;
+}
+
+
+/*-----------------------------------Laptop View-------------------------------------------------------*/
+
+
+@media only screen and (min-width:1024px){
+    .container{
+        display: flex;
+        align-items: center;
+        border-radius: 35px;
+        overflow: hidden;
+        height: 444px;
+        width: 902px;
+        box-shadow: 0 0 7px 4px #c1c1c1; 
+        
+    }
+
+    .container_bg{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1{
+        height: 443px;
+        /* width: 280px; */
+    
+    }
+
+    img.image{
+        height: 62vh;
+        width: 612px;
+    }
+
+    
+
+    .group1{
+        height: 100px;
+    }
+
+                                         /*Index.html*/
+
+    /* .left-panel_1{
+        display: flex;
+        width: 612px
+    } */
+
+    .right_panel_1{
+        background-color: white; 
+         display: flex;
+         flex-direction: column;
+         width: 281px;
+         height: 62vh;
+         padding: 15px;
+         justify-content: center;
+         align-items: center;
+         transition: background 0.5s;
+     }
+     
+
+     .left-panel_1{
+         height: 62vh;
+     }
+     .illustration{
+         height: 62vh;
+     }
+
+     .title1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+     .ButtonGrp {
+        display: flex;
+        flex-direction: column;
+        width: 251px;
+        margin: auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+                                             /*SignIN.html*/
+
+
+     .left{
+        display: flex;
+        width: 612px;
+    }
+    
+    .right {
+        /* display: flex; */
+        /* position: absolute; */
+        /* width: 235vw; */
+        height: 392px;
+    }
+
+    .tright {
+    height: 29vh;
+    }
+
+                                             /*SignUp.html*/
+
+    .right-panel{
+        display: flex;
+        flex-direction: column;
+        width: 281px;
+        height: 444px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .left-panel {
+        display: flex;
+        width: 622px;
+        height: 443px;
+    }
+
+    .illustration2{
+        height: 62vh;
+    }
+
+    img.image2{
+        height: 62vh;
+        width: 612px;
+    }
+
+    .title_Up {
+        display: flex;
+        flex-direction: column;
+        height: 62px;
+        width: 220px;
+        background: #fff;
+        border-radius: 30px 30px 0px 0px;
+        align-self: center;
+    }
+
+    .rLabels {
+        background: #fff;
+        border-radius: 0px 0px 30px 30px;
+        height: 356px;
+    }
+    .right_labels1 {
+        display: flex;
+        flex-direction: column;
+        height: 365px;
+    }
+}   
+
+
 .sec{
     background-color: #ffe5f1;
     transition: background 0.5s;
@@ -18,20 +221,9 @@
     transition: background 0.5s;
 }
 
-img.image{
-    height: 451px;
-    width: 612px;
-}
 
-.container{
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    overflow: hidden;
-    height: 444px;
-    box-shadow: 0 0 7px 4px #c1c1c1; 
 
-}
+
 
 /* USING NPM
 
@@ -43,7 +235,7 @@ img.image{
 }
 
 .checkbox {
-	opacity: 0;
+    opacity: 0;
 }
 
 .label {
@@ -79,7 +271,7 @@ img.image{
 }
 
 .fa-sun {
-	color: #f39c12;
+    color: #f39c12;
 } 
 #darkm{
     width:30px;
@@ -87,38 +279,15 @@ img.image{
     vertical-align: text-bottom;
 } */
 
-.container_bg{
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-}
+
 
 /*Index.html--------------------------------------------------------*/
 
-.left-panel_1{
-    display: flex;
-    width: 612px
-}
 
-.container1{
-    height: 443px;
-    /* width: 280px; */
 
-}
 
-.right_panel_1{
-    background-color: white; 
-    display: flex;
-    flex-direction: column;
-    width: 281px;
-    height: 444px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    transition: background 0.5s;
-}
+
+
 section.dark .right_panel_1{
 	background: #292c35;
     color: #fff;
@@ -151,9 +320,8 @@ svg.moon {
 }
 /*-----------------------*/
 
-.group1{
-    height: 100px;
-    width: 160px;
+.illustration1{
+    height: 29vh;
 }
 
 .button_btn{
@@ -209,45 +377,55 @@ svg.moon {
     
     margin-bottom: 40px;
 }
-
-@media only screen and (max-width:900px){
+                                            /* responsivePage 900px */
+/* @media only screen and (max-width:900px){
     .container{
         display:flex;
         flex-direction: column;
     }
-}
+
+
+    .right_panel_1 {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-top: -382px;
+        width: 281px;
+        height: 300px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.5s;
+    } 
+    
+} */
 
 /*Sign.html----------------------------------------------------*/
 
-.left{
-    display: flex;
-    width: 612px
-    
-}
+
 
 .title {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    margin-top: 20px;
 }   
 
-.right{
-    display: flex;
-    flex-direction: column;
-    width: 281px;
-    height: 444px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-section.dark .right{
+
+section.dark .right_labels1{
 	background: #292c35;
     color: #fff;
     transition: background 0.5s;    
 }
-.right_labels{
-    align-self: self-end;
+section.dark .title_Up{
+	background: #292c35;
+    color: #fff;
+    transition: background 0.5s;    
+}
+.right_labels1 {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 strong{
@@ -255,22 +433,27 @@ strong{
     font-size: 25px;
 }
 
-.SignUp_btn{
+.SignUp_btn {
     display: flex;
     flex-direction: row;
     font-weight: bold;
     font-size: 12px;
     color: rgb(150, 150, 150);
     font-family: sans-serif;
-    padding: 0px 0px 0px 18px;
+    width: 296px;
+    justify-content: center;
 }
 
-.login{
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: 10px;
     color: rgb(150, 150, 150);
     font-family: sans-serif;
-    padding: 20px;
+    height: 222px;
 }
 
 .login .group{
@@ -279,11 +462,6 @@ strong{
     flex-direction: column;
 }
 
-.image2{
-    background-color: #7b79ff;
-    height: 451px;
-    width: 612px;
-}
 
 /*SignUp-------------------------------------------------------*/
 
@@ -291,21 +469,32 @@ strong{
     background-color: #ebebeb;
 }
 
-.right-panel{
-    display: flex;
-    flex-direction: column;
-    width: 281px;
-    height: 444px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
 
-section.dark .right-panel{
+
+section.dark .rLabels{
 	background: #292c35;
     color: #fff;
     transition: background 0.5s;    
+}
+
+
+section.dark .Tdark {
+    background: #292c35;
+    color: #fff;
+    transition: background 0.5s;
+    width: 260px;
+    margin-left: 254px;
+}
+.rLabels{
+    background:#fff;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.Tdark{
+    margin-left: 254px;
+    background:#fff;
+    width: 260px;
+    border-radius: 30px 30px 0px 0px;
 }
 
 .right-panel h1{
@@ -325,10 +514,7 @@ h1.strong{
     cursor: default;
 }
 
-.left-panel{
-    display: flex;
-    width: 612px;
-}
+
 
 .SignUp{
     font-weight: bold;
@@ -346,6 +532,17 @@ h1.strong{
 
 label{
     margin-bottom: 5px;
+}
+
+.right-panel {
+    display: flex;
+    /* position: relative; */
+    /* height: 106vh; */
+    width: 720px;
+    /* display: table; */
+    /* align-items: center; */
+    justify-content: center;
+    /* background: white; */
 }
 
 #Username {
@@ -388,14 +585,37 @@ label{
     padding: 5px;
 }
 
-#eye{
-    position: absolute;
-    top: 32px;
-    right: 13px;
+#eye {
+    position: fixed;
+    top: 305px;
+    left: 340px;
     transform: translate(0,-50%);
     cursor: pointer;
     color: #7b79ff;
     font-size: 15px;
+}
+.tright {
+    height: 65vh;
+    width: 55vh;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 4px #c1c1c1;
+}
+
+.right {
+    display: flex;
+    height: 10vh;
+    width: 562px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.times1 {
+    display: grid;
+    width: 15px;
+    margin-left: 207px;
+    position: absolute;
 }
 
 .group .button{
@@ -421,19 +641,33 @@ label{
     color: #9897ff;
 }
 
-.title_Up{
-    align-self: start;
-    padding: 0px 0px 0px 10px;
+.title_Up {
+    display: flex;
+    flex-direction: column;
+    height: 62px;
+    background: #fff;
+    border-radius: 30px 30px 0px 0px;
+    /* padding: 10px 0px 0px 10px; */
 }
 
 .times {
     display: grid;
     width: 15px;
     align-self: end;
-    margin-bottom: 360px;
     position: absolute;
+    margin-bottom: 310px;
+    margin-left: 250px;
 }
 
 svg#times_1{
     color: #111;
+}
+.eye1 {
+    position: fixed;
+    top: 91px;
+    left: 101px;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: #7b79ff;
+    font-size: 15px;
 }
