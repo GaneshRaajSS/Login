@@ -64,75 +64,40 @@ svg.moon {
 
 /*-----------------------------------Laptop View-------------------------------------------------------*/
 
-@media (min-width: 1024px) {
-  .container {
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    overflow: hidden;
-    box-shadow: 0 0 7px 4px #c1c1c1;
-  }
-
-  .container_bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  img.image {
-    /* --------height has been set--------- */
-    height: 68vh;
-    width: 612px;
-  }
-
-  .right_panel_1 {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 292px;
-    /* --------height has been set--------- */
-    height: 68vh;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    transition: background 0.5s;
-  }
-
-  .left-panel_1 {
-    /* --------height has been set--------- */
-    height: 68vh;
-  }
-  .title1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .ButtonGrp {
-    display: flex;
-    flex-direction: column;
-    /* uncommented width---------- */
-    width: 251px;
-    margin: auto;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+.container_bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-/*-----------------------------------Mobile View-------------------------------------------------------*/
-
-/* img.image {
-  min-height: 100vh;
-  min-width: 100vw;
-} */
-
 .container {
-  align-self: center;
-  background: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 35px;
+  overflow: hidden;
+  /* -----------height and width fixed--------- */
+  box-shadow: 0 0 7px 4px #c1c1c1;
+}
+.left-panel_1 {
+  /* --------height has been set--------- */
+  height: 75vh;
+}
+img.image {
+  /* --------height has been set--------- */
+  height: 75vh;
+  width: 612px;
 }
 
-.container1 {
-  background: white;
-  transform-style: preserve-3d;
+.right_panel_1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+  /* --------height has been set--------- */
+  height: 75vh;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.5s;
 }
 
 .title1 {
@@ -142,24 +107,13 @@ svg.moon {
 
 .ButtonGrp {
   display: flex;
-  width: 100vw;
+  flex-direction: column;
+  /* uncommented width---------- */
+  width: 251px;
   margin: auto;
+  align-items: center;
   justify-content: space-evenly;
 }
-
-.illustration {
-  min-height: 76vh;
-}
-
-.right_panel_1 {
-  height: 129px;
-}
-
-/*-----------------*/
-
-/* .illustration1{
-    height: 29vh;
-} */
 
 .button_btn {
   width: 160px;
@@ -197,4 +151,41 @@ svg.moon {
 .button_btn11:hover,
 .button_btn:focus {
   transform: scale(1.1);
+}
+
+/*-----------------------------------Mobile View-------------------------------------------------------*/
+
+@media (max-width: 1000px) {
+  .container_bg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+  .left-panel_1 {
+    width: 100vw;
+  }
+  img.image {
+    width: 100vw;
+  }
+  .right_panel_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 45vh;
+  }
+  .ButtonGrp {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .group1 {
+    height: 50px;
+  }
 }
