@@ -73,6 +73,79 @@ strong {
   font-weight: bold;
   font-size: 25px;
 }
+
+/*-----------------------------------Laptop View-------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    overflow: hidden;
+    height: 444px;
+    width: 902px;
+    box-shadow: 0 0 7px 4px #c1c1c1;
+  }
+
+  .container_bg {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container1 {
+    height: 443px;
+  }
+
+  img.image2 {
+    height: 68vh;
+    width: 612px;
+  }
+
+  .group1 {
+    height: 100px;
+  }
+
+  /*SignIN.html*/
+
+  .left {
+    height: 68vh;
+    width: 612px;
+  }
+
+  .right {
+    height: 68vh;
+  }
+  .tright {
+    height: 68vh;
+    width: 290px;
+    border-radius: unset;
+    box-shadow: none;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 94px;
+  }
+
+  .times {
+    width: 43px;
+    height: 115px;
+  }
+
+  .eye2 {
+    color: #7b79ff;
+    position: absolute;
+    top: 398px;
+    right: 110px;
+    font-size: 15px;
+  }
+}
+
 /* -------------------------------------------------------------------- */
 .SignUp_btn {
   display: flex;
@@ -209,92 +282,4 @@ svg#times_1 {
   top: 306px;
   right: 388px;
   font-size: 15px;
-}
-
-/*-----------------------------------Laptop View-------------------------------------------------------*/
-
-@media only screen and (min-width: 1024px) {
-  .container {
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    overflow: hidden;
-    height: 444px;
-    width: 902px;
-    box-shadow: 0 0 7px 4px #c1c1c1;
-  }
-
-  .container_bg {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .container1 {
-    height: 443px;
-    /* width: 280px; */
-  }
-
-  img.image2 {
-    height: 68vh;
-    width: 612px;
-  }
-
-  .group1 {
-    height: 100px;
-  }
-
-  /*SignIN.html*/
-
-  .left {
-    height: 68vh;
-    width: 612px;
-  }
-
-  .right {
-    /* display: flex; */
-    /* position: absolute; */
-    /* width: 235vw; */
-    height: 68vh;
-  }
-
-  /* .tright {
-        height: 52vh;
-        width: 258px;
-        border-radius: unset;
-        box-shadow: none;
-    } */
-  .tright {
-    height: 68vh;
-    width: 290px;
-    border-radius: unset;
-    box-shadow: none;
-  }
-
-  .title {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-top: 94px;
-  }
-
-  .times {
-    /* display: grid; */
-    width: 43px;
-    height: 115px;
-    /* align-self: end; */
-    /* position: absolute; */
-    /* margin-bottom: 377px; */
-    /* margin-left: 250px; */
-  }
-
-  .eye2 {
-    color: #7b79ff;
-    position: absolute;
-    top: 398px;
-    right: 110px;
-    font-size: 15px;
-  }
 }

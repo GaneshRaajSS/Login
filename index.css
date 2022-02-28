@@ -62,6 +62,62 @@ svg.moon {
   cursor: default;
 }
 
+/*-----------------------------------Laptop View-------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 0 7px 4px #c1c1c1;
+  }
+
+  .container_bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img.image {
+    /* --------height has been set--------- */
+    height: 68vh;
+    width: 612px;
+  }
+
+  .right_panel_1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    /* --------height has been set--------- */
+    height: 68vh;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s;
+  }
+
+  .left-panel_1 {
+    /* --------height has been set--------- */
+    height: 68vh;
+  }
+  .title1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .ButtonGrp {
+    display: flex;
+    flex-direction: column;
+    /* uncommented width---------- */
+    width: 251px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
 /*-----------------------------------Mobile View-------------------------------------------------------*/
 
 /* img.image {
@@ -141,81 +197,4 @@ svg.moon {
 .button_btn11:hover,
 .button_btn:focus {
   transform: scale(1.1);
-}
-
-/*-----------------------------------Laptop View-------------------------------------------------------*/
-
-@media (min-width: 1024px) {
-  .container {
-    display: flex;
-    align-items: center;
-    border-radius: 35px;
-    overflow: hidden;
-    /* min-height: 444px;
-        min-width: 902px; */
-    box-shadow: 0 0 7px 4px #c1c1c1;
-  }
-
-  .container_bg {
-    display: flex;
-    /* min-height: 100vh;
-        min-width: 100vw; */
-    align-items: center;
-    justify-content: center;
-  }
-
-  .container1 {
-    /* min-height: 443px; */
-  }
-
-  img.image {
-    /* --------height has been set--------- */
-    height: 68vh;
-    width: 612px;
-  }
-
-  /* .group1{
-        height: 100px;
-    } */
-
-  /* Index.html */
-
-  .right_panel_1 {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 292px;
-    /* --------height has been set--------- */
-    height: 68vh;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    transition: background 0.5s;
-  }
-
-  .left-panel_1 {
-    /* --------height has been set--------- */
-    height: 68vh;
-  }
-  /* .illustration{
-         height: 62vh;
-     } */
-
-  /* .bgrp {
-    display: flex;
-  } */
-  .title1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .ButtonGrp {
-    display: flex;
-    flex-direction: column;
-    /* uncommented width---------- */
-    width: 251px;
-    margin: auto;
-    align-items: center;
-    justify-content: space-evenly;
-  }
 }
