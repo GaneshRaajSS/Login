@@ -116,6 +116,7 @@ img.image2 {
 
 .right {
   height: 68vh;
+  background-color: #ffffff;
 }
 .tright {
   height: 68vh;
@@ -221,22 +222,42 @@ svg#times_1 {
   width: 100vw;
 }
 /* -------------------------------------------------------------------- */
-/* @media only screen and (max-width: 1000px) {
- 
-
-  .tright {
-    height: 65vh;
-    width: 55vh;
-    background: white;
-    border-radius: 30px;
-    box-shadow: 0 0 7px 4px #c1c1c1;
+@media (max-width: 1000px) {
+  .container_bg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
-
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+  .left {
+    width: 100vw;
+    height: 100vh;
+  }
+  img.image2 {
+    width: 100vw;
+    height: 100vh;
+  }
   .right {
     display: flex;
-    height: 10vh;
-    width: 562px;
+    position: absolute;
+    height: 55vh;
+    top: 173px;
+    right: 332px;
+    width: 254px;
     align-items: flex-end;
     justify-content: center;
+    background-color: #ffffff;
   }
-} */
+  .times {
+    margin-left: 225px;
+  }
+  .tright {
+    height: 71vh;
+  }
+}
