@@ -132,13 +132,8 @@ label {
 
 .right-panel {
   display: flex;
-  /* position: relative; */
-  /* height: 106vh; */
   width: 720px;
-  /* display: table; */
-  /* align-items: center; */
   justify-content: center;
-  /* background: white; */
 }
 
 #Username {
@@ -246,6 +241,13 @@ svg#times_1 {
 
 /*-----------------------------------Laptop View-------------------------------------------------------*/
 
+.container_bg {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
 .container {
   display: flex;
   align-items: center;
@@ -256,17 +258,8 @@ svg#times_1 {
   box-shadow: 0 0 7px 4px #c1c1c1;
 }
 
-.container_bg {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-}
-
 .container1 {
   height: 443px;
-  /* width: 280px; */
 }
 
 img.image2 {
@@ -277,7 +270,6 @@ img.image2 {
 .group1 {
   height: 100px;
 }
-/*SignUp.html*/
 
 .right-panel {
   display: flex;
@@ -311,13 +303,11 @@ img.image2 {
   height: 62px;
   width: 220px;
   background: #fff;
-  /* border-radius: 30px 30px 0px 0px; */
   align-self: center;
 }
 
 .rLabels {
   background: #fff;
-  /* border-radius: 0px 0px 30px 30px; */
   height: 356px;
 }
 .right_labels1 {
@@ -340,19 +330,36 @@ img.image2 {
 }
 
 /* ------------------------------------------------------------------------ */
-/* @media only screen and(max-width:1000px) {
-  .tright {
-    height: 65vh;
-    width: 55vh;
-    background: white;
-    box-shadow: 0 0 7px 4px #c1c1c1;
-  }
-
-  .right {
+/* @media (max-width: 1000px) {
+  .container_bg {
     display: flex;
-    height: 10vh;
-    width: 562px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+  .left-panel {
+    width: 100vw;
+    height: 100vh;
+  }
+  img.image2 {
+    width: 100vw;
+    height: 100vh;
+  }
+  .right-panel {
+    display: flex;
+    position: absolute;
+    height: 55vh;
+    top: 173px;
+    right: 332px;
+    width: 254px;
     align-items: flex-end;
     justify-content: center;
+    background-color: #ffffff;
   }
 } */
