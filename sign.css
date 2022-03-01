@@ -255,9 +255,62 @@ svg#times_1 {
     background-color: #ffffff;
   }
   .times {
-    margin-left: 225px;
+    margin-left: 217px;
+    top: -15px;
   }
   .tright {
-    height: 71vh;
+    height: 55vh;
+  }
+  .title {
+    margin-top: 0;
+  }
+}
+@media (max-width: 430px) {
+  .right {
+    right: 183px;
+  }
+}
+@media (max-width: 380px) {
+  .right {
+    right: 162px;
+    width: 213px;
+  }
+  .tright {
+    width: 213px;
+  }
+  .group .button,
+  #password,
+  #Email,
+  .title {
+    width: 180px;
+  }
+  .SignUp_btn {
+    width: 200px;
+  }
+  .times {
+    margin-left: 188px;
+    top: -20px;
+  }
+}
+@media (max-width: 325px) {
+  .right {
+    right: 138px;
+    width: 183px;
+  }
+  .times {
+    margin-left: 155px;
+    top: -20px;
+  }
+  .tright {
+    width: 182px;
+  }
+  .group .button,
+  #password,
+  #Email,
+  .title {
+    width: 150px;
+  }
+  .SignUp_btn {
+    width: 177px;
   }
 }
