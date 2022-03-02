@@ -100,8 +100,10 @@ strong {
 }
 
 img.image2 {
-  height: 68vh;
+  height: 85vh;
   width: 612px;
+  background-color: #7b79ff;
+
 }
 
 .group1 {
@@ -111,12 +113,12 @@ img.image2 {
 /*SignIN.html*/
 
 .left {
-  height: 68vh;
+  height: 79vh; 
   width: 612px;
 }
 
 .right {
-  height: 62vh;
+  height: 72vh;
   background-color: #ffffff;
 }
 .tright {
@@ -205,11 +207,11 @@ svg#times_1 {
   margin-bottom: 20px;
   padding: 5px;
 }
-.image2 {
+/* .image2 {
   background-color: #7b79ff;
   height: 100vh;
   width: 100vw;
-}
+} */
 /* -------------------------------------------------------------------- */
 
 

@@ -211,7 +211,7 @@ svg#times_1 {
 }
 
 img.image2 {
-  height: 54vh;
+  height: 85vh;
   width: 621px;
 }
 
@@ -223,7 +223,7 @@ img.image2 {
   display: flex;
   flex-direction: column;
   width: 293px;
-  height: 57vh;
+  height: 71vh;
   padding: 15px;
   justify-content: center;
   align-items: center;
@@ -232,7 +232,7 @@ img.image2 {
 
 .left-panel {
   width: 622px;
-  height: 54vh;
+  height: 705h;
 }
 
 .right_labels1 {
@@ -444,5 +444,6 @@ img.image2 {
     right: 55px;
     font-size: 15px;
   }
+
 }
 
