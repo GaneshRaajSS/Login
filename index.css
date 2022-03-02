@@ -91,7 +91,7 @@ img.image {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 292px;
+  width: 305px;
   /* --------height has been set--------- */
   height: 75vh;
   padding: 15px;
@@ -187,5 +187,24 @@ img.image {
   }
   .group1 {
     height: 50px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1440px) {
+  .waterMark {
+    position: absolute;
+    padding: 30px;
+    color: #fff;
+    cursor: default;
+    top: 180px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .waterMark {
+    position: absolute;
+    padding: 30px;
+    color: #fff;
+    cursor: default;
+    top: 130px;
   }
 }

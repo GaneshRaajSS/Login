@@ -37,8 +37,8 @@ svg.moon {
 .title {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-top: 24px;
+  padding-left: 20px;
+  padding-top: 75px;
 }
 
 section.dark .container {
@@ -46,10 +46,11 @@ section.dark .container {
   color: #fff;
   transition: background 0.5s;
 }
-section.dark .tright {
+section.dark .right {
   background: #292c35;
   color: #fff;
   transition: background 0.5s;
+  border-radius: 20px;
 }
 
 /* section.dark .rLabels{
@@ -115,27 +116,15 @@ img.image2 {
 }
 
 .right {
-  height: 68vh;
+  height: 62vh;
   background-color: #ffffff;
 }
 .tright {
-  height: 68vh;
+  height: 54vh;
   width: 290px;
-  border-radius: unset;
-  box-shadow: none;
+  /* border-radius: unset;
+  box-shadow: none; */
 }
-
-.title {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-top: 94px;
-}
-
-/* .times {
-  width: 43px;
-  height: 115px;
-} */
 
 .eye2 {
   color: #7b79ff;
@@ -191,7 +180,7 @@ img.image2 {
 
 .times {
   position: absolute;
-  margin-top: 23px;
+  margin-top: 69px;
   margin-left: 246px;
 }
 
@@ -222,6 +211,8 @@ svg#times_1 {
   width: 100vw;
 }
 /* -------------------------------------------------------------------- */
+
+
 @media (max-width: 1000px) {
   .container_bg {
     display: flex;
@@ -246,34 +237,39 @@ svg#times_1 {
   .right {
     display: flex;
     position: absolute;
-    height: 55vh;
-    top: 173px;
+    height: 64vh;
+    top: 157px;
     right: 332px;
     width: 254px;
     align-items: flex-end;
     justify-content: center;
     background-color: #ffffff;
+    border-radius: 20px;
   }
   .times {
     margin-left: 217px;
     top: -15px;
   }
   .tright {
-    height: 55vh;
+    height: 64vh;
   }
   .title {
     margin-top: 0;
-  }
+    padding-left: 20px;
+    padding-top: 6px;
+}
 }
 @media (max-width: 430px) {
   .right {
     right: 183px;
+    border-radius: 20px;
   }
 }
 @media (max-width: 380px) {
   .right {
     right: 162px;
     width: 213px;
+    border-radius: 20px;
   }
   .tright {
     width: 213px;
@@ -296,6 +292,7 @@ svg#times_1 {
   .right {
     right: 138px;
     width: 183px;
+    border-radius: 20px;
   }
   .times {
     margin-left: 155px;
