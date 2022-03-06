@@ -313,3 +313,56 @@ svg#times_1 {
     width: 177px;
   }
 }
+@media (min-width: 375px) and (max-width: 425px){
+  .right {
+    display: flex;
+    position: absolute;
+    height: 76vh;
+    top: 105px;
+    right: 42px;
+    width: 274px;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+  }
+
+  .left-panel {
+    width: 100vw;
+    height: 100vh;
+  } 
+
+  img.image2 {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .right_labels1 {
+    width: 249px;
+    height: 69vh;
+  }
+
+  .times1 {
+    display: grid;
+    width: 15px;
+    align-self: end;
+    position: absolute;
+    margin-bottom: 363px;
+    margin-left: 250px;
+  }
+
+  .eye2 {
+    color: #7b79ff;
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    font-size: 15px;
+  }
+}
